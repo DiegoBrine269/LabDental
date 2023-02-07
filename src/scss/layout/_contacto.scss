@@ -1,0 +1,56 @@
+.contacto {
+    margin-bottom: 5rem;
+}
+
+.tarjeta-contacto {
+    padding: 3rem;
+
+    -webkit-box-shadow: -9px 9px 33px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 9px 33px -8px rgba(0,0,0,0.75);
+    box-shadow: -9px 9px 33px -8px rgba(0,0,0,0.75);
+
+    @include phone {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include tablet{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    img {
+        width: 30rem; 
+        height: 30rem; 
+        object-fit: cover;
+
+        @include phone {
+            width: 15rem;
+            height: 15rem;
+        }
+
+        @include tablet {
+            width: 20rem; 
+            height: 20rem;
+        }
+    }
+}
+
+.info-contacto {
+    h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .domicilio {
+        margin-top: 0.5rem;
+    }
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+
+    a  {
+        margin-left: 1rem;
+    }
+}

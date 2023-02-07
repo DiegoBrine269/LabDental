@@ -1,0 +1,51 @@
+.hamburger{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $azul;
+
+    @include tablet {
+        display: none;
+    }
+
+    .hamburger-box {
+        margin: 0 auto;
+    }
+}
+
+
+
+#navbar {
+    padding: 1rem 0;
+    background-color: $blanco;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        @include tablet {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    li {
+        width: 100%;
+        list-style: none;
+        &:hover{
+            a{
+                color: $blanco;
+            }
+            background-color: $azul;
+            cursor: pointer;
+        }
+    
+        @include tablet {
+            &.active {
+                background-color: $blanco;
+                border-radius: 3rem ;
+            }
+        }
+    }
+}

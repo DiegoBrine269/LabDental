@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+* {
+    font-family: $fuentePrincipal;
+}
+
+h1, h2, h3, h4 {
+    font-family: $fuenteTitulos;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+

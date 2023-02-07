@@ -1,0 +1,24 @@
+.contenedor {
+    margin: 0 auto;
+    width: 90%;
+    max-width: $tablet;
+}
+
+.invisible {
+    display: none;
+}
+
+.link {
+    text-decoration: none;
+    color: $negro;
+    font-family: $fuenteTitulos;
+    width: 100%;
+}
+
+.titulo {
+    text-transform: uppercase;
+}
+
+section {
+    margin-top: 5rem;
+}

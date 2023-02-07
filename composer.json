@@ -1,0 +1,19 @@
+{
+    "name": "diieg/lab-dental",
+    "description": "Aplicaci\u0000n web para el laboratorio dental de Belinda Oloarte",
+    "authors": [
+        {
+            "name": "DiegoBrine269",
+            "email": "diegooloarte269@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Models\\" : "./models",
+            "Controllers\\" : "./controllers"
+            
+        }
+    }
+}
